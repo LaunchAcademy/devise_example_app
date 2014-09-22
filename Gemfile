@@ -9,3 +9,10 @@ gem 'jquery-rails'
 gem 'spring',        group: :development
 
 gem 'devise'
+
+group :development, :test do
+  gem 'capybara'
+  gem 'launchy'
+  gem 'pry-rails'
+  gem 'rspec-rails'
+end
